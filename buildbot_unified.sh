@@ -106,6 +106,7 @@ build_treble() {
     case "${1}" in
         ("64VN") TARGET=gsi_arm64_vN;;
         ("64VS") TARGET=gsi_arm64_vS;;
+        ("B64GN") TARGET=gsi_b64_gN;;
         ("64GN") TARGET=gsi_arm64_gN;;
         (*) echo "Invalid target - exiting"; exit 1;;
     esac
